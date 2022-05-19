@@ -1,5 +1,3 @@
--- Yukihook UI Library
-
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local TextService = game:GetService("TextService")
@@ -24,7 +22,7 @@ local library = {
 		fontSize = 14,
 		fontStroke = true,
 		fontColor = Color3.fromRGB(255,255,255),
-		menuAccent = Color3.fromRGB(244, 117, 11),
+		menuAccent = Color3.fromRGB(190, 11, 244),
 		objectColorSequence = ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(255,255,255)), ColorSequenceKeypoint.new(1,Color3.fromRGB(100,100,100))},
 		defaultColorSequence = ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(255,255,255)), ColorSequenceKeypoint.new(1,Color3.fromRGB(90,90,90))},
 		selectedColorSequence = ColorSequence.new{ColorSequenceKeypoint.new(0,Color3.fromRGB(255,255,255)), ColorSequenceKeypoint.new(1,Color3.fromRGB(60,60,60))}
